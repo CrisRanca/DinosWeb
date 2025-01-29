@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Comfortaa:wght@300..700&family=Coming+Soon&family=DM+Serif+Display&family=Fredericka+the+Great&family=Kosugi+Maru&family=Nixie+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="PFDino.css">
+</head>
+
+<body>
+    <!--Div principal para el menu de inicio-->
+    <div class="menu">
+        <!--Logo-->
+        <img src="../ProyectoFinalDinos/img/logo.jpg">
+        <!--Div para los enlaces-->
+        <div id="enlaces">
+            <a href="#dinosaurios">Dinosaurios</a>
+            <a href="#TablaInformativa">Tabla informativa</a>
+            <a href="#InfoDino">Información sobre dinosaurios</a>
+        </div>
+        <!--Div para el mini formulario-->
+        <div id="formulario">
+            <form>
+                <label for="usuario">Usuario:
+                    <input type="text" id="usuario">
+                </label> 
+                <br> 
+                <label for="password">Contraseña:
+                    <input type="password" id="password">
+                </label>  
+                <br>
+                <button id="boton" type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!--Primer apartado: Dinosaurios-->
+    <div class="HDinos">
+        <h2 id="dinosaurios">Dinosaurios</p>
+    </div>
+
+    <!--Div para las imagenes del primer apartado-->
+    <div class="imagenes">
+        <div>
+            <img src="../ProyectoFinalDinos/img/Ankylosaurus.jpg">
+            <p>Ankylosaurus</p>
+        </div>
+
+        <div>
+            <img src="../ProyectoFinalDinos/img/diplodocus.jpg">
+            <p>Diplodocus</p>
+        </div>
+
+        <div>   
+            <img src="../ProyectoFinalDinos/img/espinosaurio.jpg">
+            <p>Espinosaurio</p>
+        </div>    
+
+        <div>   
+            <img src="../ProyectoFinalDinos/img/estegosaurio.jpg">
+            <p>Estegosaurio</p>
+        </div> 
+
+        <div>   
+            <img src="../ProyectoFinalDinos/img/giganotosaurus.jpg">
+            <p>Giganotosaurus</p>
+        </div> 
+
+        <div>   
+            <img src="../ProyectoFinalDinos/img/gigantoraptor.jpg">
+            <p>Gigantoraptor</p>
+        </div>   
+
+        <div>
+            <img src="../ProyectoFinalDinos/img/nothosaurus.jpg">
+            <p>Nothosaurus</p>
+        </div>
+
+        <div>
+            <img src="../ProyectoFinalDinos/img/plesiosaurio.jpg">
+            <p>Plesiosaurio</p>
+        </div>
+
+        <div>   
+            <img src="../ProyectoFinalDinos/img/Pteranodon.jpg">
+            <p>Pteranodon</p>
+        </div>   
+
+        <div>   
+            <img src="../ProyectoFinalDinos/img/trex.jpg">
+            <p>T-rex</p>
+        </div> 
+
+        <div>   
+            <img src="../ProyectoFinalDinos/img/triceratops.jpg">
+            <p>Triceratops</p>
+        </div> 
+
+        <div>   
+            <img src="../ProyectoFinalDinos/img/velociraptor.jpg">
+            <p>Velociraptor</p>
+        </div> 
+    </div>
+
+    <!--Segundo apartado: Tabla-->
+    <div class="HTabla">
+        <h2 id="TablaInformativa">Tabla</p>
+    </div>
+
+    <!--Div principal para la tabla-->
+    <div class="tabla">
+        <table border="1">
+            <!--Titulo de los diferentes apartados de la tabla-->            
+            <tr>
+                <th>Nombre</th>
+                <th>Periodo</th>
+                <th>Extinción</th>
+                <th>Alimentación</th>
+                <th>Curiosidades</th>
+                <th>Foto</th>
+            </tr>
+            
+            <!--Contenido de la tabla-->
+            <tr>
+                <td class="nombre">Ankylosaurus</td>
+                <td>Jurásico inferior</td>
+                <td>Cretácico superior</td>
+                <td>Herbívora</td>
+                <td>Cerebro anormalmente pequeño</td>
+                <td ><img class="imagentabla" src="../ProyectoFinalDinos/img/Ankylosaurus.jpg"></td>
+            </tr>
+        
+            <tr id="pares">
+                <td class="nombre">Diplodocus</td>
+                <td>Jurásico</td>
+                <td>Cretácico superior</td>
+                <td>Herbívora</td>
+                <td>Esqueleto relativamente ligero debido a sus huesos huecos</td>
+                <td class="imagentabla"><img src="../ProyectoFinalDinos/img/diplodocus.jpg"></td>
+            </tr>
+        
+            <tr>
+                <td class="nombre">Espinosaurio</td>
+                <td>Cretácico inferior</td>
+                <td>Cretácico superior</td>
+                <td>Carnívora</td>
+                <td>Estilo de vida semiacuático</td>
+                <td class="imagentabla"><img src="../ProyectoFinalDinos/img/espinosaurio.jpg"></td>
+            </tr>
+    
+            <tr id="pares">
+                <td class="nombre">Estegosaurio</td>
+                <td>Jurásico inferior</td>
+                <td>Jurásico superior</td>
+                <td>Herbívora</td>
+                <td>Su nombre significa "lagarto terrible"</td>
+                <td class="imagentabla"><img src="../ProyectoFinalDinos/img/estegosaurio.jpg"></td>
+            </tr>
+        
+            <tr>
+                <td class="nombre">Giganotosaurus</td>
+                <td>Cretácico inferior</td>
+                <td>Cretácico superior</td>
+                <td>Carnívora</td>
+                <td>Se estima que podía alcanzar una velocidad máxima de 50 km/h</td>
+                <td class="imagentabla"><img src="../ProyectoFinalDinos/img/giganotosaurus.jpg"></td>
+            </tr>
+    
+            <tr id="pares">
+                <td class="nombre">Gigantoraptor</td>
+                <td>Cretácico inferior</td>
+                <td>Cretácico superior</td>
+                <td>Omnívoro</td>
+                <td>Su pico no tenía dientes</td>
+                <td class="imagentabla"><img src="../ProyectoFinalDinos/img/gigantoraptor.jpg"></td>
+            </tr>
+    
+            <tr>
+                <td class="nombre">Nothosaurus</td>
+                <td>Triásico</td>
+                <td>Triásico</td>
+                <td>Carnívora</td>
+                <td>Su nombre significa "falso lagarto"</td>
+                <td class="imagentabla"><img src="../ProyectoFinalDinos/img/nothosaurus.jpg"></td>
+            </tr>
+
+            <tr id="pares">
+                <td class="nombre">Plesiosaurio</td>
+                <td>Jurásico inferior</td>
+                <td>Cretácico superior</td>
+                <td>Carnívora</td>
+                <td>No masticaba a sus presas, las engullía enteras.</td>
+                <td class="imagentabla"><img src="../ProyectoFinalDinos/img/plesiosaurio.jpg"></td>
+            </tr>
+    
+            <tr>
+                <td class="nombre">Pteranodon</td>
+                <td>Triásico superior</td>
+                <td>Cretácico superior</td>
+                <td>Carnívora</td>
+                <td>Su nombre significa “ala sin dientes”</td>
+                <td><img src="../ProyectoFinalDinos/img/Pteranodon.jpg"></td>
+            </tr>
+
+            <tr id="pares">
+                <td class="nombre">T-rex</td>
+                <td>Cretácico</td>
+                <td>Cretácico-Terciario</td>
+                <td>Carnívora</td>
+                <td>Su nombre significa "rey de los lagartos tiranos"</td>
+                <td><img src="../ProyectoFinalDinos/img/trex.jpg"></td>
+            </tr>
+        
+            <tr>
+                <td class="nombre">Triceratops</td>
+                <td>Cretácico</td>
+                <td>Cretácico-Terciario</td>
+                <td>Herbívora</td>
+                <td>Es el dinosaurio más dócil y manso que se conoce</td>
+                <td><img src="../ProyectoFinalDinos/img/triceratops.jpg"></td>
+            </tr>
+        
+            <tr id="pares">
+                <td class="nombre">Velociraptor</td>
+                <td>Jurásico</td>
+                <td>Cretácico superior</td>
+                <td>Carnívora</td>
+                <td>La larga uña en el segundo dedo del pie la usaba probablemente como arma principal para apuñalar y retener a su presa.</td>
+                <td><img src="../ProyectoFinalDinos/img/velociraptor.jpg"></td>
+            </tr>
+        </table>
+    </div>
+    
+    <!--Información adicional sobre el Pteranodon-->
+    <div class="info" id="InfoDino">
+
+        <figure class="figure">
+            <img src="../ProyectoFinalDinos/img/DiinoVolado.jpg">
+            <figcaption>Dinosaurio dinosaurioso volador</figcaption>
+        </figure>
+
+        <!--Primera parte: Pteranodon-->
+        <h1>Pteranodon</h1>
+        <p class="pteranodon">
+            Pteranodon (del griego πτερ- "ala" y αν-οδων "desdentado"), es un género extinto 
+            de pterosaurio pteranodóntido, que incluía algunos de los reptiles voladores más 
+            grandes conocidos, con envergaduras de más de 7 m. Existieron durante el período 
+            Cretácico Superior de América del Norte, en las regiones que actualmente integran 
+            los estados de Kansas, Alabama, Nebraska, Wyoming y Dakota del Sur. Se han 
+            encontrado más especímenes fósiles de Pteranodon que de cualquier otro pterosaurio, 
+            con cerca de 1,200 especímenes conocidos por la ciencia actual, muchos de ellos 
+            bien preservados, con cráneos completos y esqueletos articulados. Fue un género 
+            importante en la comunidad faunística presente en el Mar de Niobrara.
+        </p>
+        <br>
+        <p class="pteranodon">
+            Los Pteranodon eran pterosaurios, pero no dinosaurios. Por definición, todos 
+            los dinosaurios pertenecen a los grupos Saurischia u Ornithischia, de los que 
+            los pterosaurios no forman parte. Aun así, Pteranodon es frecuentemente 
+            representado en los medios de comunicación sobre dinosaurios y son frecuentemente 
+            asociados con estos por el público en general.​ Si bien no son dinosaurios, 
+            los pterosaurios como Pteranodon forman un clado hermano con los dinosaurios 
+            dentro del clado Avemetatarsalia.
+        </p>
+
+        <!--Segunda parte: Descripcion-->
+        <h2>Descripción</h2>
+        <p>
+            Las especies de Pteranodon están muy bien representadas en el registro fósil, 
+            permitiendo realizar detalladas descripciones de su anatomía y de su estilo de 
+            vida. Cerca de 1000 especímenes han sido identificadas, aunque menos de la mitad 
+            están lo suficientemente completos como para proporcionar a los investigadores 
+            buena información sobre la anatomía del animal. Aun así, estos son muchos más 
+            fósiles que los conocidos para cualquier otro pterosaurio, y esto incluye tanto 
+            especímenes de machos y hembras de varios grupos de edad y, posiblemente, especies.
+        </p>
+
+        <!--Tercera parte: Tamaño-->
+        <h2>Tamaño</h2>
+        <p  class="pteranodon">
+            Los especímenes adultos de Pteranodon pueden ser divididos en dos clases según su 
+            tamaño. Aquellos de menor tamaño poseen crestas pequeñas y amplios canales en la 
+            pelvis, que son más anchos que los de la clase de mayor tamaño. El tamaño del canal 
+            pélvico era probablemente para permitir la puesta de los huevos, lo que indica 
+            que los adultos menores eran las hembras. El grupo de mayor tamaño representaría 
+            individuos machos, con caderas estrechas y enormes crestas en su cabeza, la cual 
+            era probablemente para despliegues visuales.
+        </p>    
+        <p>
+            Los machos adultos de Pteranodon estuvieron entre los mayores pterosaurios, y de 
+            hecho fueron los mayores reptiles voladores conocidos hasta finales del siglo XX, 
+            cuando se descubrió a los gigantescos pterosaurios azdárquidos.2​ La envergadura de 
+            un macho adulto promedio de Pteranodon era de 5.6 metros. Las hembras adultas 
+            eran mucho menores, promediando los 3.8 metros de envergadura. El mayor ejemplar 
+            de Pteranodon longiceps de la formación Niobrara medía 6.25 metros de la punta 
+            de un ala a la otra. Un ejemplar aún mayor es conocido de la formación Pierre 
+            Shale, con una envergadura de 7.25 metros, si bien este espécimen puede pertenecer 
+            al género y especie distintos Geosternbergia maysei.
+        </p>
+        <p>           
+            Los métodos usados para estimar el peso de los grandes machos de Pteranodon 
+            (aquellos con envergaduras de cerca de 7 metros) han sido notoriamente poco 
+            fiables, produciendo una amplia gama de estimaciones desde tan bajas como 20 kg. 
+            a tan altas como 93 kg. En una revisión de estimaciones de tamaño de los 
+            pterosaurios publicados en 2010, los investigadores Mark Witton y Mike Habib 
+            demostraron que las últimas estimaciones – las mayores – son casi ciertamente 
+            incorrectas dado el volumen total del cuerpo del Pteranodon, y solo podrían 
+            ser correctos si el animal "estuviera principalmente compuesto de aluminio."​ 
+            Witton y Habib consideraron que los métodos usados por otros científicos quienes 
+            obtuvieron estimados de peso menores eran igualmente deficientes. Muchos los 
+            habían producido extrapolando el peso de animales modernos como murciélagos y 
+            aves al tamaño de Pteranodon, a pesar del hecho de que los pterosaurios eran 
+            muy distintos de cualquier animal moderno en sus proporciones corporales y en 
+            la anatomía de sus tejidos blandos.
+        </p>
+
+        <!--Details 1-->
+        <details>
+            <figure class="figure">
+                <img src="../ProyectoFinalDinos/img/DinoMaMuertoQueVivo.jpg">
+                <figcaption>Réplica de un esqueleto de un P. longiceps macho, Museo Americano de Historia Natural.</figcaption>
+            </figure>
+        
+            <summary class="summary">Cráneo y mandíbulas</summary>
+            <p>
+                A diferencia de pterosaurios más primitivos como Rhamphorhynchus y Pterodactylus, Pteranodon tenía 
+                un pico desdentado, similar al de las aves modernas. El pico de Pteranodon estaba hecho de bordes 
+                óseos sólidos que se proyectaban desde la base de las mandíbulas. El pico era largo, estrecho y 
+                terminaba en una punta aguda. La mandíbula superior era más larga que la inferior. La mandíbula 
+                superior estaba curvada hacia arriba; mientras que lo que normalmente se atribuye solo al pico 
+                curvado hacia arriba, una ejemplar (UALVP 24238) tiene una curvatura que corresponde con la 
+                ampliación del pico hacia la punta. Aunque la punta del pico no es conocida en este espécimen, 
+                el nivel de la curvatura sugiere que este pudo haber sido extremadamente largo. La forma única 
+                del pico en este ejemplar llevó a Alexander Kellner a asignarlo a un género distinto, Dawndraco, 
+                en 2010.
+            </p>
+            <p>
+                La característica más distintiva de Pteranodon es su cresta craneal. Estas crestas eran una 
+                proyección de los huesos frontales que se proyectaban hacia arriba y atrás del cráneo. El 
+                tamaño y forma de estas crestas variaban debido a un cierto número de factores, incluyendo 
+                edad, género y especie. Los machos de Pteranodon sternbergi, la especie más antigua de las 
+                descritas a la fecha (y a veces situada en su propio género, Geosternbergia), tenía una cresta 
+                más vertical con una amplia proyección delantera, mientras que su descendiente, Pteranodon 
+                longiceps, evolucionaron una cresta más estrecha y orientada hacia atrás.​ Las hembras de 
+                ambas especies tenían crestas más pequeñas y redondeadas.​ Estas crestas eran probablemente 
+                estructuras de exhibición, aunque pudieron haber tenido también otras funciones.
+            </p>
+    </details>
+
+         <!--Details 2-->
+        <details>
+
+            <figure class="figure">
+                <img src="../ProyectoFinalDinos/img/Ptreranodonx2.jpg">
+                <figcaption>Pteranodon Skeleton - Encyclopedia of Alabama</figcaption>
+            </figure>
+
+            <summary class="summary">Esqueleto</summary>
+            <p>
+                Otras características distintivas que apartan a Pteranodon de otros pterosaurios incluyen 
+                estrechas espinas neurales en las vértebras, ligamentos similares a placas óseas que 
+                fortalecían las vértebras sobre la cadera, y una cola relativamente corta en la cual las 
+                últimas vértebras estaban fusionadas en una especie de larga vara ósea.​ La longitud entera 
+                de la cola era cerca del 3.5% de la envergadura alar, es decir más de 25 centímetros en los 
+                mayores machos.
+            </p>
+            <h3>Rango temporal y evolución</h3>
+            <p>
+                Los fósiles de Pteranodon se conocen principalmente de la formación Niobrara en el centro de 
+                Estados Unidos. En sentido amplio, Pteranodon existió por más de cuatro millones de años, 
+                desde finales del Coniaciense hasta principios del Campaniense en el período Cretácico.5​ El 
+                género está presente en muchas de las capas de la formación Niobrara excepto por las dos 
+                superiores; en 2003, Kenneth Carpenter proveyó la distribución y datación de los fósiles de 
+                esta formación, demostrando que Pteranodon sternbergi existió entre hace 88 a 85 millones de 
+                años, mientras que P. longiceps existió entre hace 86-84.5 millones de años. Una posible 
+                tercera especie, la cual Kellner llamó Geosternbergia maysei en 2010, es conocida del Miembro 
+                Sharon Springs de la formación Pierre Shale en Kansas, Wyoming y Dakota del Sur, datando de 
+                entre 81.5 a 80.5 millones de años.
+            </p>
+            <p>
+                A principios de la década de 1990, Bennett notó que las dos especies mayores de pteranodontes 
+                presentes en la formación Niobrara estaban separadas precisamente en el tiempo con poca 
+                superposición, si la había. Debido a esto, y a su similitud general, él sugirió que 
+                probablemente representaban una cronoespecie dentro de un único linaje evolutivo que perduró 
+                unos 4 millones de años. En otras palabras, una sola especie de Pteranodon pudo haber estado 
+                presente en un momento dado, y P. sternbergi (o Geosternbergia) es con toda probabilidad el 
+                ancestro directo de P. longiceps.
+            </p>
+        </details>
+    </div>
+</body>
+</html>
